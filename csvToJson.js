@@ -46,7 +46,7 @@ var rows = input.split(rowDelim);
 
 // extract column names from the first row
 var props = parse(rows.shift());
-console.log("props", props)
+//console.log("props", props)
 
 // parse the body of the csv/tsv
 var data = rows.map(parse);
