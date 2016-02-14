@@ -11,8 +11,8 @@ var util = require("util");
 
 // check arguments
 if (process.argv.length < 4) {
-  console.log("usage: csvToJson input-csv-or-tsv-file output-json-file");
-  console.log("example: csvToJson input.txt output.json\n");
+  console.log("usage: node csvToJson input-csv-or-tsv-file output-json-file");
+  console.log("example: node csvToJson input.txt output.json\n");
   return;
 }
 
